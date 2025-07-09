@@ -1,59 +1,34 @@
-<h1 align="center">Advanced Auth Tutorial 🔒 </h1>
+# 🔐 Advanced MERN Authentication
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack MERN (MongoDB, Express, React, Node.js) application demonstrating advanced authentication features including JWT-based login, refresh tokens, protected routes, and role-based access control.
 
-[Video Tutorial on Youtube](https://youtu.be/pmvEgZC55Cg)
+---
 
-About This Course:
+## 🚀 Features
 
--   🔧 Backend Setup
--   🗄️ Database Setup
--   🔐 Signup Endpoint
--   📧 Sending Verify Account Email
--   🔍 Verify Email Endpoint
--   📄 Building a Welcome Email Template
--   🚪 Logout Endpoint
--   🔑 Login Endpoint
--   🔄 Forgot Password Endpoint
--   🔁 Reset Password Endpoint
--   ✔️ Check Auth Endpoint
--   🌐 Frontend Setup
--   📋 Signup Page UI
--   🔓 Login Page UI
--   ✅ Email Verification Page UI
--   📤 Implementing Signup
--   📧 Implementing Email Verification
--   🔒 Protecting Our Routes
--   🔑 Implementing Login
--   🏠 Dashboard Page
--   🔄 Implementing Forgot Password
--   🚀 Super Detailed Deployment
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
+- User Registration and Login
+- JSON Web Tokens (JWT) for Auth
+- Refresh Token Implementation
+- Role-Based Access (Admin/User)
+- Secure Password Hashing (bcrypt)
+- Protected Backend & Frontend Routes
+- Auto Token Refresh Handling
+- Custom Middleware for Error Handling
 
-### Setup .env file
+---
 
-```bash
-MONGO_URI=your_mongo_uri
-PORT=5000
-JWT_SECRET=your_secret_key
-NODE_ENV=development
+## 🛠️ Tech Stack
 
-MAILTRAP_TOKEN=your_mailtrap_token
-MAILTRAP_ENDPOINT=https://send.api.mailtrap.io/
+**Frontend:**
+- React.js
+- Axios
+- React Router
 
-CLIENT_URL= http://localhost:5173
-```
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT
+- bcrypt
 
-### Run this app locally
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm run start
-```
-
-### I'll see you in the next one! 🚀
+---
